@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! Menu labels for EffectCraft's own engine tree in each translated language. Commands remain
 //! locale-independent. A command plus its source label distinguishes parameterised entries (e.g.
 //! blend modes). Empty command keys identify submenus. Dynamic filenames, user names and effect
@@ -180,7 +181,7 @@ pub(crate) fn submenu(app: &EffectcraftApp, source: &str, shown: String) -> Stri
 /// pull request for the rows taken from #321.
 const SIMPLIFIED_CHINESE: &[(&str, &str, &str)] = &[
     ("", "EffectCraft", "EffectCraft"),
-    ("app.about", "About EffectCraft...", "关于 EffectCraft..."),
+    ("app.about", "About Atelier Effects...", "关于 EffectCraft..."),
     ("", "Settings...", "设置..."),
     ("app.settings", "General...", "常规..."),
     ("app.settings", "Startup & Repair...", "启动和修复..."),
@@ -790,9 +791,9 @@ const SIMPLIFIED_CHINESE: &[(&str, &str, &str)] = &[
     ("help.systemReport", "System Compatibility Report...", "系统兼容性报告..."),
     ("help.enableLogging", "Enable Logging", "启用日志记录"),
     ("help.revealLogFile", "Reveal Logging File", "显示日志记录文件"),
-    ("help.discord", "Join the ArtCraft Discord...", "加入 ArtCraft 的 Discord 社区..."),
+    ("help.discord", "Claude Academy community...", "加入 Claude Academy 的 Discord 社区..."),
     ("help.reportIssue", "Provide Feedback...", "提供反馈..."),
-    ("help.website", "ArtCraft Website", "ArtCraft 网站"),
+    ("help.website", "Claude Academy website", "Claude Academy 网站"),
     ("help.appPage", "EffectCraft Home Page", "EffectCraft 主页"),
     ("help.github", "EffectCraft on GitHub", "GitHub 上的 EffectCraft"),
     ("file.openDemoProject", "Open Demo Project", "打开示例项目"),
@@ -803,7 +804,7 @@ const SIMPLIFIED_CHINESE: &[(&str, &str, &str)] = &[
 /// vocabulary the sibling Craft apps' zh-hant catalogs use.
 const TRADITIONAL_CHINESE: &[(&str, &str, &str)] = &[
     ("", "EffectCraft", "EffectCraft"),
-    ("app.about", "About EffectCraft...", "關於 EffectCraft..."),
+    ("app.about", "About Atelier Effects...", "關於 EffectCraft..."),
     ("", "Settings...", "設定..."),
     ("app.settings", "General...", "一般..."),
     ("app.settings", "Startup & Repair...", "啟動和修復..."),
@@ -1413,9 +1414,9 @@ const TRADITIONAL_CHINESE: &[(&str, &str, &str)] = &[
     ("help.systemReport", "System Compatibility Report...", "系統相容性報告..."),
     ("help.enableLogging", "Enable Logging", "啟用日誌記錄"),
     ("help.revealLogFile", "Reveal Logging File", "顯示日誌檔案"),
-    ("help.discord", "Join the ArtCraft Discord...", "加入 ArtCraft 的 Discord 社群..."),
+    ("help.discord", "Claude Academy community...", "加入 Claude Academy 的 Discord 社群..."),
     ("help.reportIssue", "Provide Feedback...", "提供意見..."),
-    ("help.website", "ArtCraft Website", "ArtCraft 網站"),
+    ("help.website", "Claude Academy website", "Claude Academy 網站"),
     ("help.appPage", "EffectCraft Home Page", "EffectCraft 首頁"),
     ("help.github", "EffectCraft on GitHub", "GitHub 上的 EffectCraft"),
     ("file.openDemoProject", "Open Demo Project", "開啟範例專案"),
@@ -1423,7 +1424,7 @@ const TRADITIONAL_CHINESE: &[(&str, &str, &str)] = &[
 
 const JAPANESE: &[(&str, &str, &str)] = &[
     ("", "EffectCraft", "EffectCraft"),
-    ("app.about", "About EffectCraft...", "EffectCraftについて..."),
+    ("app.about", "About Atelier Effects...", "EffectCraftについて..."),
     ("", "Settings...", "設定..."),
     ("app.settings", "General...", "一般..."),
     ("app.settings", "Startup & Repair...", "起動と修復..."),
@@ -2033,9 +2034,9 @@ const JAPANESE: &[(&str, &str, &str)] = &[
     ("help.systemReport", "System Compatibility Report...", "システム互換性レポート..."),
     ("help.enableLogging", "Enable Logging", "ログ記録を有効化"),
     ("help.revealLogFile", "Reveal Logging File", "ログファイルを表示"),
-    ("help.discord", "Join the ArtCraft Discord...", "ArtCraft Discordに参加..."),
+    ("help.discord", "Claude Academy community...", "Claude Academy Discordに参加..."),
     ("help.reportIssue", "Provide Feedback...", "フィードバックを送信..."),
-    ("help.website", "ArtCraft Website", "ArtCraftウェブサイト"),
+    ("help.website", "Claude Academy website", "Claude Academyウェブサイト"),
     ("help.appPage", "EffectCraft Home Page", "EffectCraftホームページ"),
     ("help.github", "EffectCraft on GitHub", "GitHubのEffectCraft"),
     ("file.openDemoProject", "Open Demo Project", "デモプロジェクトを開く"),
@@ -2046,7 +2047,7 @@ const JAPANESE: &[(&str, &str, &str)] = &[
 /// The (command, source) keys match the other catalogs; no proprietary localization was used.
 const UKRAINIAN: &[(&str, &str, &str)] = &[
     ("", "EffectCraft", "EffectCraft"),
-    ("app.about", "About EffectCraft...", "Про EffectCraft..."),
+    ("app.about", "About Atelier Effects...", "Про EffectCraft..."),
     ("", "Settings...", "Налаштування..."),
     ("app.settings", "General...", "Загальні..."),
     ("app.settings", "Startup & Repair...", "Запуск і відновлення..."),
@@ -2656,9 +2657,9 @@ const UKRAINIAN: &[(&str, &str, &str)] = &[
     ("help.systemReport", "System Compatibility Report...", "Звіт про сумісність системи..."),
     ("help.enableLogging", "Enable Logging", "Увімкнути журналювання"),
     ("help.revealLogFile", "Reveal Logging File", "Показати файл журналу"),
-    ("help.discord", "Join the ArtCraft Discord...", "Приєднатися до Discord ArtCraft..."),
+    ("help.discord", "Claude Academy community...", "Приєднатися до Discord Claude Academy..."),
     ("help.reportIssue", "Provide Feedback...", "Надіслати відгук..."),
-    ("help.website", "ArtCraft Website", "Вебсайт ArtCraft"),
+    ("help.website", "Claude Academy website", "Вебсайт Claude Academy"),
     ("help.appPage", "EffectCraft Home Page", "Домашня сторінка EffectCraft"),
     ("help.github", "EffectCraft on GitHub", "EffectCraft на GitHub"),
     ("file.openDemoProject", "Open Demo Project", "Відкрити демонстраційний проєкт"),

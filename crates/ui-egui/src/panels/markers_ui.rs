@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! Markers in the Timeline (composition markers in the ruler, layer markers on layer bars) and
 //! the Composition/Layer Marker dialog.
 //!
@@ -481,7 +482,7 @@ mod tests {
         assert_eq!(effectcraft_engine::color::Label::ALL[d.label].name(), "Blue");
         d.duration = 0.5;
         d.chapter = "Ch".into();
-        d.url = "https://getartcraft.com".into();
+        d.url = "https://claudeacademy.ca".into();
         d.frame_target = "_self".into();
         d.protected = true;
         d.cue = false;

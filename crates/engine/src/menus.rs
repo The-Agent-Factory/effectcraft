@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! The menu bar, laid out like After Effects' (same menus, order, submenus, separators and
 //! labels). Every entry runs a registered command (`commands::find`), optionally with bound
 //! parameters (e.g. `layer.setBlendMode {"mode":"Multiply"}`). Frontends render this tree; agents
@@ -1217,10 +1218,10 @@ Help
   Enable Logging | help.enableLogging
   Reveal Logging File | help.revealLogFile
   ---
-  Join the ArtCraft Discord... | help.discord
+  Claude Academy community... | help.discord
   Provide Feedback... | help.reportIssue
   ---
-  ArtCraft Website | help.website
+  Claude Academy website | help.website
   EffectCraft Home Page | help.appPage
   EffectCraft on GitHub | help.github
   Open Demo Project | file.openDemoProject

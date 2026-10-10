@@ -15,3 +15,11 @@ list (author, source, license) is in ATTRIBUTION.md.
 Inter (assets/fonts/Inter-*.ttf) — SIL Open Font License 1.1. See assets/fonts/OFL-Inter.txt.
 Noto Serif (assets/fonts/NotoSerif-Regular.ttf) — SIL Open Font License 1.1. See assets/fonts/OFL-NotoSerif.txt.
 JetBrains Mono (assets/fonts/JetBrainsMono-Regular.ttf) — SIL Open Font License 1.1. See assets/fonts/OFL-JetBrainsMono.txt.
+
+--------------------------------------------------------------------------------
+Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
+This modified version is published as "Atelier Effects". It is based on EffectCraft by the
+ArtCraft team (https://github.com/storytold/effectcraft). It is not an ArtCraft product and is not
+affiliated with or endorsed by the ArtCraft team, Adobe or Microsoft. The ArtCraft name and
+marks have been removed as required by docs/brand/LICENSE-brand.txt of the original project.
+All original copyright notices and the MIT and Apache-2.0 licenses are kept unchanged.

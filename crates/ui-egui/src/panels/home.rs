@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! The Home screen, laid out like After Effects' (shown over the whole workspace at launch, from
 //! the Tools bar's Home button and by the Learn workspace). A left rail holds New Project / Open
 //! Project, the Home / Templates / Learn pages and, at its foot, the ArtCraft community links.
@@ -271,8 +272,8 @@ fn rail_ui(app: &mut EffectcraftApp, ui: &mut egui::Ui, p: &egui::Painter, rail:
     }
     // Community links at the foot (below the pages when the window is short).
     let links = [
-        (Icon::Chat, "Join the ArtCraft Discord", "help.discord"),
-        (Icon::Globe, "getartcraft.com", "help.website"),
+        (Icon::Chat, "Claude Academy community", "help.discord"),
+        (Icon::Globe, "claudeacademy.ca", "help.website"),
         (Icon::Globe, "EffectCraft home page", "help.appPage"),
         (Icon::Code, "EffectCraft on GitHub", "help.github"),
     ];
@@ -301,7 +302,7 @@ fn rail_ui(app: &mut EffectcraftApp, ui: &mut egui::Ui, p: &egui::Painter, rail:
         }
         cy += 30.0;
     }
-    p.text(pos2(x0, cy + 8.0), Align2::LEFT_CENTER, crate::i18n::tr("More ArtCraft apps"), Tokens::ui(11.0), t.text_faint);
+    p.text(pos2(x0, cy + 8.0), Align2::LEFT_CENTER, crate::i18n::tr("More Atelier apps"), Tokens::ui(11.0), t.text_faint);
     cy += 20.0;
     let sw = (w - 6.0) / 2.0;
     for (i, (name, slug)) in sib.iter().enumerate() {

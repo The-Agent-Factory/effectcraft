@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 //! Translations for the interface *below* the menu bar: panel labels, buttons, field names,
 //! tooltips and the sentences the panels draw themselves.
 //!
@@ -83,8 +84,8 @@ const SIMPLIFIED_CHINESE: &[(&str, &str)] = &[
     ("360 View Orientation", "360 视图方向"),
     ("3:2 Pulldown: {}", "3:2 折叠：{}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of the ArtCraft family of creative apps.",
-        "一款从零编写、开源的动态图形与视觉效果合成软件：原生支持 macOS、Windows 和 Linux，也可在浏览器中运行。属于 ArtCraft 创意应用家族。",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Free preview from Claude Academy.",
+        "一款从零编写、开源的动态图形与视觉效果合成软件：原生支持 macOS、Windows 和 Linux，也可在浏览器中运行。属于 Claude Academy 创意应用家族。",
     ),
     ("About EffectCraft", "关于 EffectCraft"),
     ("About...", "关于..."),
@@ -247,7 +248,7 @@ const SIMPLIFIED_CHINESE: &[(&str, &str)] = &[
     ("Install from File…", "从文件安装…"),
     ("Intensity", "强度"),
     ("Inverted", "反转"),
-    ("Join the ArtCraft community on Discord", "加入 ArtCraft 的 Discord 社区"),
+    ("Join the Claude Academy community", "加入 Claude Academy 的 Discord 社区"),
     ("Key: {}", "按键：{}"),
     ("LEARN", "学习"),
     ("Label", "标签"),
@@ -282,7 +283,7 @@ const SIMPLIFIED_CHINESE: &[(&str, &str)] = &[
     ("Models folder: {}", "模型文件夹：{}"),
     ("Modifiers:", "修饰键："),
     ("More", "更多"),
-    ("More ArtCraft apps", "更多 ArtCraft 应用"),
+    ("More Atelier apps", "更多 Claude Academy 应用"),
     ("More tutorials", "更多教程"),
     ("Motion Blur", "运动模糊"),
     ("Motion Blur: {}", "动态模糊：{}"),
@@ -500,8 +501,8 @@ const TRADITIONAL_CHINESE: &[(&str, &str)] = &[
     ("360 View Orientation", "360 檢視方向"),
     ("3:2 Pulldown: {}", "3:2 摺疊：{}"),
     (
-        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Part of the ArtCraft family of creative apps.",
-        "一款從零編寫、開源的動態圖形與視覺效果合成軟件：原生支援 macOS、Windows 和 Linux，也可在瀏覽器中執行。屬於 ArtCraft 創意應用家族。",
+        "A clean-room, open-source compositor for motion graphics and visual effects: native on macOS, Windows and Linux, and in the browser. Free preview from Claude Academy.",
+        "一款從零編寫、開源的動態圖形與視覺效果合成軟件：原生支援 macOS、Windows 和 Linux，也可在瀏覽器中執行。屬於 Claude Academy 創意應用家族。",
     ),
     ("About EffectCraft", "關於 EffectCraft"),
     ("About...", "關於..."),
@@ -664,7 +665,7 @@ const TRADITIONAL_CHINESE: &[(&str, &str)] = &[
     ("Install from File…", "從文件安裝…"),
     ("Intensity", "強度"),
     ("Inverted", "反轉"),
-    ("Join the ArtCraft community on Discord", "加入 ArtCraft 的 Discord 社區"),
+    ("Join the Claude Academy community", "加入 Claude Academy 的 Discord 社區"),
     ("Key: {}", "按鍵：{}"),
     ("LEARN", "學習"),
     ("Label", "標籤"),
@@ -699,7 +700,7 @@ const TRADITIONAL_CHINESE: &[(&str, &str)] = &[
     ("Models folder: {}", "模型資料夾：{}"),
     ("Modifiers:", "修飾鍵："),
     ("More", "更多"),
-    ("More ArtCraft apps", "更多 ArtCraft 應用"),
+    ("More Atelier apps", "更多 Claude Academy 應用"),
     ("More tutorials", "更多教學"),
     ("Motion Blur", "運動模糊"),
     ("Motion Blur: {}", "動態模糊：{}"),

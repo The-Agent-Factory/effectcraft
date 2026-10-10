@@ -1,3 +1,4 @@
+// Modified by The Agent Factory for Claude Academy: rebranding and web language detection (see BRANDING.md).
 use serde_json::json;
 
 use crate::Session;
@@ -329,7 +330,7 @@ fn save_and_open_roundtrip() {
 fn help_links_emit_urls() {
     let mut s = Session::default();
     let r = s.execute("help.discord", json!({})).unwrap();
-    assert_eq!(r["url"], "https://discord.gg/artcraft");
+    assert_eq!(r["url"], "https://www.skool.com/claudeacademy");
     assert!(s.drain_events().iter().any(|e| matches!(e, crate::Event::OpenUrl(u) if u.contains("discord"))));
     assert_eq!(s.execute("help.github", json!({})).unwrap()["url"], "https://github.com/storytold/effectcraft");
 }
