@@ -183,7 +183,7 @@ pub fn show(app: &mut EffectcraftApp, ui: &mut egui::Ui, rect: Rect) {
     let dc = Color32::from_rgb(0x58, 0x65, 0xf2);
     p.rect_filled(discord, 13.0, if dresp.hovered() { dc.gamma_multiply(1.2) } else { dc });
     icons::paint(&p, Rect::from_center_size(pos2(discord.min.x + 16.0, cy), vec2(14.0, 14.0)), Icon::Chat, Color32::WHITE);
-    p.text(pos2(discord.min.x + 28.0, cy), Align2::LEFT_CENTER, tr("Discord"), Tokens::semibold(12.0), Color32::WHITE);
+    p.text(pos2(discord.min.x + 28.0, cy), Align2::LEFT_CENTER, tr("Community"), Tokens::semibold(12.0), Color32::WHITE);
     app.auto.add("header.discord", discord, "Claude Academy community");
     if dresp.on_hover_text(tr("Join the Claude Academy community")).clicked() {
         let _ = app.session.execute("help.discord", json!({}));
